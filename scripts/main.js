@@ -5,7 +5,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/firefox-icon.png') {
-        myImage.setAttribute ('src','https://media.discordapp.net/attachments/796465047667736616/1106297759654498424/1683832333878.jpg');
+        myImage.setAttribute ('src','images/firefox2.png');
     } else {
         myImage.setAttribute ('src','images/firefox-icon.png');
     }
